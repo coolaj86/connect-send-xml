@@ -7,12 +7,17 @@ var connect = require('connect')
   ;
 
 app
-  .use(send.json())
+  .use(send.xml())
   .use(function (req, res) {
-    res.statusCode = 501;
-    res.json({
-      error: { message: "Not Implemented" }
-    });
+    res.statusCode = 400;
+    res.xml('<?xml version="1.0" encoding="UTF-8"?>'
+      + '<Error>'
+      + '<Message '
+        + 'attachment="http://twitpic.com/3ccz0i">'
+            + 'What the XMhell are you doing!?!?'
+      + '</Message>'
+      + '</Error>'
+    );
   })
   ;
 

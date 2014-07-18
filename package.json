@@ -1,24 +1,24 @@
 {
-  "name": "connect-send-json",
+  "name": "connect-send-xml",
   "version": "1.0.0",
-  "description": "Adds the response.json() middleware to connect and connect-like http stacks.",
+  "description": "Adds the response.xml() middleware to connect and connect-like http stacks.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/coolaj86/connect-send-json.git"
+    "url": "https://github.com/coolaj86/connect-send-xml.git"
   },
   "keywords": [
     "connect",
     "send",
-    "json"
+    "xml"
   ],
   "author": "AJ ONeal <coolaj86@gmail.com> (http://coolaj86.com/)",
   "license": "Apache2",
   "bugs": {
-    "url": "https://github.com/coolaj86/connect-send-json/issues"
+    "url": "https://github.com/coolaj86/connect-send-xml/issues"
   },
-  "homepage": "https://github.com/coolaj86/connect-send-json"
+  "homepage": "https://github.com/coolaj86/connect-send-xml"
 }
