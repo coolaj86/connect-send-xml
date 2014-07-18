@@ -1,7 +1,7 @@
 {
   "name": "connect-send-json",
   "version": "1.0.0",
-  "description": "Adds response.json() to connect and connect-like http stacks.",
+  "description": "Adds the response.json() middleware to connect and connect-like http stacks.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
