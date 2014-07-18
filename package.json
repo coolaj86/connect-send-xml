@@ -1,0 +1,24 @@
+{
+  "name": "connect-send-json",
+  "version": "1.0.0",
+  "description": "Adds response.json() to connect and connect-like http stacks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coolaj86/connect-send-json.git"
+  },
+  "keywords": [
+    "connect",
+    "send",
+    "json"
+  ],
+  "author": "AJ ONeal <coolaj86@gmail.com> (http://coolaj86.com/)",
+  "license": "Apache2",
+  "bugs": {
+    "url": "https://github.com/coolaj86/connect-send-json/issues"
+  },
+  "homepage": "https://github.com/coolaj86/connect-send-json"
+}

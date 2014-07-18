@@ -1,17 +1,9 @@
-connect-send-json
-=================
-
-Adds the `response.json()` to connect and connect-like http stacks.
-
-Usage
-=====
-
-```javascript
 'use strict';
 
 var connect = require('connect')
   , app = connect()
-  , send = require('connect-send-json')
+  , send = require('./index')
+  , port = 8070
   ;
 
 app
@@ -24,5 +16,6 @@ app
   })
   ;
 
-module.exports = app;
-```
+app.listen(port, function () {
+  console.log('Listening on http://localhost:' + port);
+});
